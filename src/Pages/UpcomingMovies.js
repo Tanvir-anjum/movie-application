@@ -73,6 +73,8 @@ function UpcomingMovies() {
 
 
     };
+
+//Pagination functions
     const loadNextData = () => {
         if (listInfo.page < listInfo.total_pages) {
 
