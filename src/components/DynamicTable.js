@@ -66,6 +66,8 @@ function DynamicTable(){
             .catch(err => "Error")
     };
 
+//Pagination functions
+
     const loadNextData = () => {
         if(listInfo.page<listInfo.total_pages) {
 
