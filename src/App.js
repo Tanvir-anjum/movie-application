@@ -8,6 +8,8 @@ import Main from "./Pages/Main";
 
 function App() {
     return (
+        
+     //All page  paths & defined the  component
         <Routes>
 
             <Route exact path="/" element={<Main/>}/>
